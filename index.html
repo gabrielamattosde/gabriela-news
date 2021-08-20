@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cerrado Informado</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="news.css">
+</head>
+<body>
+    <div class="layout">
+        <header>
+            <p>
+                CI
+            </p>
+            <ul>
+                <li>
+                    <a href="#clima">
+                        Clima
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVpJREFUSEvllME1BEEQhr+NABkQAS6uZIAMiAARIAMiQARsBLg6yQAZEAHv82q8mtE9M8vbg6cvOztTXV/VX3/3hDmvyZzz8z8Ai8ABsAWsAf5/BG6Ac+C1T+YhiUx4G0lLeUy+H7Aipw9gxdeR/B44A+6iYr+dAJuRVchlidAHUIZV4ArYq8gg5DigKyW5SgCrc5O/L8DygJXtyk5Oo6tWeBdgpRcpotp6irEQ52TH691iMqAJNOYoNO11SEr2Hs/OQWcJ+1wZoO22a60OyNQADLOo3TBEC+CHBWBpyNsVmLOyA+cxBXa6HTRV/BRgPiFPWZ0sUa8bRl6KDeDLfRlgSx4sl/7W/8/AQ7zb6EC6702uAzVLUaImsWcgm2AMIA/5Le4siyte1/ka6J6TGkyAsmjPw+j8m01rMuektefqiIZuUzeOkehXgLy5Bvs7gJHHoW3DmTfNsuEDnepKGTh2VYAAAAAASUVORK5CYII=" />
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="#saude">
+                        Saúde
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASFJREFUSEvtlNGRAVEQRY8IyAAZEIESASJgI1gZIAJEgAgIQQa7GVgZrAioq7qrXpmZx2A+VE1/vZp5fW/36Z6pUHBUCtanNPgFzkA7C/UriFrAjwk3gb80k1cMFsC3iX4B62cMYghUcd1EN8Aor0Ef2FrSANgFAo7nBFQNjzAlIoZIgj3L2APdINvxLK1ymaTOIcugARxM0KvUpgiZwvHo2dQKSZ1DloGSJoDYSszP4ux4joAKGQNzu5uYQ2igfb4NYZGBdyMMEtT2CI/OYbdh/lU7ZuACuqcVHAIzY67tCZGpY5lpFh4Jg9h/z7H8AzXA8cRyru/yfGjapI4pht1FTfIYaIArUwvxvM1AQr6mQvZQ5OngIcHbS6XBXWyfj+gCnUk2GcU0EcMAAAAASUVORK5CYII="/>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="#esporte">
+                        Esporte
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAc5JREFUSEu1lf0xBUEQxPtFQAaIgAwQASJABGSADIgAEZCBJwMZIAMioH5X06/m9vb27p+bqqt6dneme3o+rLSwrRaOrzkAp5JOJD1I+pD0KmkrfvP3c4tkC+BI0qOk3QhwLGkd32EKytldnA+wxgC2JX0FUzuNAXD/G0R+SoQaAMF5eBCskAPbC1AY5wwITrbIZd8NTgnAwxdJsMXBIOh+ESw/E8scnLdvks6yXCUAsuxEBhkEZjB/knQeALXgfodvZxmAboG9DZkMwhnFNvux4Pa9DDI9gMyOh++SblO6los7a25ZYJ6Nlr4uM7DGyIT+fGZOANeEM/9G8zK4yUGiOWg4XkUWpVw15mQMOT6M7HsAHPyF1ujdMQjLmnOUW5ghu4/GKJTqA5T9XQtO4CwRmZkxd/tB8LtWZFggSbZat3Cfu4tMb4qMR4vM7hljngvqqS7lsi/DxnAOikx3kGarz9medBzMkShPPGsFebwgBwA4gdzqc7PnHTupXCsMLPXsbGrZlX1OKwKepzq38OSyM3BtXXNnAEAAtwFCZrPWtZ0Iwmzk1WwAzukcDM2pyUaW3IZz/mXiTI/zwRCNXWTq0HXLmM0BaPlP3i0O8A8pQYgZRZLF2AAAAABJRU5ErkJggg=="/>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="#entretenimento">
+                        Entretenimento
+                       
+                           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAaNJREFUSEu1lclNBEEMRd9EgIgAENxZEoAIWBIALpyBMxzhDFy5sCTAEgFEANxBggzIAPSkqpG7p7u6Z6Sx1NL02PW/7fp2D5iyDaaMTx+CfWAdWEmPOb2n5xF4KiVZItgGLoD5jiq/gWNAshFrI7gEDlP0D+D7S8rav61mAzgC5lKcMRJVrIkggnvA95JJYqXaVSIdxtcJbMtD8q6GjLu0YEVvKWgntqtOYD8tuU/mddJciRgL2RkJVMsNYM+7LratopzgsIpIcAvshezt/VZCUiH1C2zy5yruABOuzIHaXgbsvc6sopxtvMAohOg3Se9CLHEqBH8p0qp+gZkclA7532yKKfkjTitBl2pK/laC2CJ/T2JZrh95rZQuWYJPYLGD6QtYSjHFS85DFnW8C6iIkqm8+xRQlKkxTYN2Apy1MJwC57XsK3PUd1WsAQfAZgJ7Bq7Deui9KjwfNW5P1X/Jxlp2GSiS2DbfX2vr2o+Q4HmtjGzS+qDVs/TSBc77vq0Key7RWB+cCCaRj312lWjq3FkRtBE4A/T5Jk8ycMMzUyf4Bx+CZBliISi+AAAAAElFTkSuQmCC"/>
+                    </a> 
+                </li>
+            </ul>
+        </header>
+        <div class="layout2">
+            Últimas Notícias
+        </div>
+        <hr size="2" width="100%">
+        <section class="cards noticias">
+            <article>
+                <img class="article-img" src="http://placekitten.com/305/205" alt=" " />
+                <div>
+                    <h1>Fux cancela reunião entre Poderes: “Pressuposto do diálogo é respeito mútuo”</h1>
+                    <h4>Presidente do Supremo reagiu aos ataques do presidente Jair Bolsonaro a ministros da Corte e ao sistema eleitoral</h4>
+                </div>
+            </article>
+            <article>
+                <img class="article-img" src="http://placekitten.com/330/240" alt=" " />
+                <h1>DF sobe 9 posições no ranking de vacinação contra a Covid e ocupa 7º lugar</h1>
+                
+            </article>
+            <article>
+                <img class="article-img" src="http://placekitten.com/280/250" alt=" " />
+                <h1>Trump culpa jogadoras “maníacas esquerdistas” dos EUA pelo bronze em Tóquio</h1>
+                
+            </article>
+            <article>
+                <img class="article-img" src="http://placekitten.com/310/210" alt=" " />
+                <h1>Expert questiona interesse de Harry e Meghan com polêmicas da realeza</h1>       
+            </article>
+        </div>
+        </article>
+        <div class="columns">
+            <p>
+                Clima
+            </p>
+        </div>
+        <section class="cards noticias">
+            <article>
+                <img class="article-img" src="http://placekitten.com/305/205" alt=" " />
+                <div>
+                    <h1>Fux cancela reunião entre Poderes: “Pressuposto do diálogo é respeito mútuo”</h1>
+                    <h4>Presidente do Supremo reagiu aos ataques do presidente Jair Bolsonaro a ministros da Corte e ao sistema eleitoral</h4>
+                </div>
+            </article>
+            <article>
+                <img class="article-img" src="http://placekitten.com/330/240" alt=" " />
+                <h1>DF sobe 9 posições no ranking de vacinação contra a Covid e ocupa 7º lugar</h1>
+        </div>
+        </article>
+
+
+    </section>
+    <footer>
+        <p>Site criado em 2021 por (Gabriela Mattos) — Copyright © </p>
+    </footer>
+</div>
+</body>
+</html>
+

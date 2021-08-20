@@ -1,0 +1,115 @@
+:root {
+    --primaria: #218EE1;
+    --primaria-escura: rgb(194, 192, 191);
+}
+
+.layout{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 100px;
+    background-color: var(--primaria);
+    height: 70px;
+    display:flex;
+    align-items: center;
+}
+header ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+header li{
+    list-style: none;
+}
+header ul li a {
+    width: 140px;
+    margin-left: 10px;
+    padding: 0px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 0.2px solid rgb(65, 68, 241);
+    box-shadow: 0 0 5px #180d7e;
+
+    
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(53, 48, 48);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header ul li a:hover{
+    background-color: var(--primaria-escura)
+}
+.logo{
+    margin-right: 50px;
+    height: 100px;
+    background-color: var(--primaria);
+}
+header p{
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: 50px;
+    font-family: serif;
+    color: rgb(51, 50, 50);
+        
+}
+.layout2{
+    color:rgb(54, 54, 54);
+    padding: 0px 10px;
+    font-size: 40px;
+    padding-top: 70px;   
+}
+.columns p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 50px;
+    font-size: 50px;
+    margin-right:100px;
+    height:70px;
+    background-color: rgb(255, 217, 0);
+}
+
+ 
+/* GRID */
+.noticias {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    padding-top: 50px;
+    width: 1100px;
+    margin: auto;
+}
+.area-text p{
+    float:left;
+    max-width:500px;
+    margin-left:10px;
+
+}
+.noticias article {
+    display:flex;
+    
+}
+
+.noticias article img {
+    max-width: 250px;   
+}
+div h1{
+    font-family: serif;
+    font-size: 30px;
+    color:rgb(34, 33, 33);
+    margin:10px;
+}
+div h4{
+    font-family: serif;
+    margin:10px;
+    font-weight: normal; 
+    color:rgb(34, 33, 33);
+    
+}
+
+
