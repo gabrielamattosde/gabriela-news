@@ -3,6 +3,10 @@
     --primaria-escura: rgb(194, 192, 191);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .layout{
     display: flex;
     flex-direction: column;
