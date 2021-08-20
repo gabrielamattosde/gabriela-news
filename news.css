@@ -139,5 +139,10 @@ div h4{
     font-weight: normal; 
     color:rgb(34, 33, 33);
 }
-
+footer hr {
+    width: 200%;
+}
+footer p{
+    color:black;
+}
 
